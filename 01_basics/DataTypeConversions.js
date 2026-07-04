@@ -22,3 +22,13 @@ console.log(bool)
 //"" -> flase
 // "xys" -> ture
 
+//-----------------------oprtions------------------
+//add strings -> str1 + str2
+
+console.log("1" + 2)
+
+console.log("1" + 2+ 2) // all strings
+
+console.log(1+2+"2") // adds 1+2 and another 2 is str
+
+console.log(+true) //+-> typeconv
