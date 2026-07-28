@@ -22,7 +22,7 @@ const obj2 = {3:"c",4:"d"}
 
 const obj3 = {...obj1,...obj2}// = Object.aasign{{},obj1,obj2}
 
-console.log(obj3);
+// console.log(obj3);
 // objects inside array
 
 const myArr = [
@@ -40,8 +40,20 @@ const myArr = [
 ]
 
 
-console.log(Object.keys(user)); // also values
-console.log(Object.entries(user)); // both key and val
+// console.log(Object.keys(user)); // also values
+// console.log(Object.entries(user)); // both key and val
 // hasOwnProperty('xyz') checks whether a key is present or not
+
+// destructuring 
+const course={
+    coursename : "js",
+    price : 234,
+    courseInstructor : "me"
+}
+// course.courseInstructor
+// destructuring
+const {courseInstructor : inst} = course // actualname : modified name
+console.log(inst);
+
 
 
