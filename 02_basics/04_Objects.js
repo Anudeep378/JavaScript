@@ -23,6 +23,25 @@ const obj2 = {3:"c",4:"d"}
 const obj3 = {...obj1,...obj2}// = Object.aasign{{},obj1,obj2}
 
 console.log(obj3);
+// objects inside array
 
+const myArr = [
+    {
+
+   // id = 1,
+    //email = "xyc@gmail.com"
+},
+{
+
+},
+{
+
+},
+]
+
+
+console.log(Object.keys(user)); // also values
+console.log(Object.entries(user)); // both key and val
+// hasOwnProperty('xyz') checks whether a key is present or not
 
 
