@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap : 20px
+}
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+.button {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    /* word-wrap: break-word;      
+    overflow-wrap: break-word;   */
+
+    border-radius: 15px;
+    /* cursor: pointer; */
+    flex-wrap: wrap;
+}
+#blue{
+    background-color: blue;
+    color: aliceblue;
+}
+#yellow{
+    background-color: yellow;
+    color: brown;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
